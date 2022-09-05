@@ -25,5 +25,3 @@ async function main(port: string = '5000'): Promise<void> {
 
 if (!env.SERVER_PORT) console.log('SERVER_PORT not defined in .env');
 main(env.SERVER_PORT)
-
-// app.listen(env.SERVER_PORT, () => console.log('running..'))

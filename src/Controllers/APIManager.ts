@@ -1,4 +1,3 @@
-import 'reflect-metadata'
 import { controller, httpGet, requestParam, response, request, next } from 'inversify-express-utils'
 import {Response, Request, NextFunction} from "express";
 
